@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EinsteinChess</title>
+</head>
+<body>
+    <h1>远程实体游戏系统之爱因斯坦棋(Developed by 郑智 康秋彦 王伟帆)</h1>
+    <p>Windows版客户端<a href="http://wwf194.site/data/Einsteinchess(Windows).exe">下载</a> | 
+       Mac版客户端<a href="http://wwf194.site/data/EinsteinChess(Mac).zip">下载</a> | 
+       Arduino例程<a href="http://wwf194.site/data/EinsteinChess_v3.zip">下载</a> |
+       爱因斯坦棋 - <a href="http://einsteinchess.wwf194.site/爱因斯坦棋 - 维基百科，自由的百科全书.htm">
+        Wikipedia</a>(无需翻墙)
+    </p> 
+    <p><img src="rule.jpg" alt="爱因斯坦棋规则"/></p>
+    <h2>使用方法</h2>
+    <p>
+        <ol>
+            <li>确认您的个人电脑(PC)能够同时和Arduino和Internet连接</li>
+            <li>按照下图所示连接Arduino、LED阵列(接口9)、提交按钮(接口4)、切换按钮(接口5)</li>
+            <li>编译，上传，并运行<a href="http://wwf194.site/data/EinsteinChess(Arduino)_v3.ino">Arduino例程</a></li>
+            <li>保持Aruidno和PC的连接，在PC运行客户端程序，客户端会要求输入Arduino串口名称(默认'COM3')</li>
+            <li>等待游戏开始(每接入2名玩家自动开始1局游戏)</li>
+            <li>轮到您走子时，要走的棋子将呈绿色，可到达的位置将呈白色(闪烁)，
+                使用“切换”键切换可到达位置，使用“确认”键提交(可以根据可操控的棋子，可以判断您是红方还是蓝方)
+            </li>
+            <li>游戏结束后客户端将自动退出，要进行下一局游戏，请重新运行客户端(无需重新上传Aruidno例程)</li>
+        </ol>
+        (由于代码仍处于调试阶段，尽管我们已经尽力排查，但客户端仍有一定的可能性卡死或出错，这时请直接关闭并重启客户端)
+    </p>
+    <p><img src="configuration.jpg" alt="连接方法"/></p>
+    <h2></h2>
+
+</body>
+</html>
